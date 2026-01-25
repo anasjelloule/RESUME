@@ -50,7 +50,7 @@ USER_DATA = {
     "contact": {
         "phone": "+212 698 938 255",
         "email": "anasjelloul@gmail.com",
-        "location": "Casablanca, Maroc"
+        "location": "Tit Melil, Casablanca"
     },
     
     # -------------------------------------------------------------------------
@@ -247,14 +247,19 @@ class CVGenerator:
         c.setFillColor(white)
         c.circle(photo_x, photo_y, photo_size / 2 + 3, fill=1, stroke=0)
         
-        # Draw photo or placeholder
+        # Draw photo or placeholder with circular clipping
         if self.data.get("photo") and os.path.exists(self.data["photo"]):
-            # Load and draw the actual photo
+            # Load and draw the actual photo with circular clip
             try:
                 img = ImageReader(self.data["photo"])
-                # Clip to circle would require more complex masking
+                # Save state, create circular clipping path
+                c.saveState()
+                path = c.beginPath()
+                path.circle(photo_x, photo_y, photo_size / 2)
+                c.clipPath(path, stroke=0, fill=0)
                 c.drawImage(img, photo_x - photo_size/2, photo_y - photo_size/2, 
                            photo_size, photo_size, mask='auto')
+                c.restoreState()
             except:
                 # Fallback to gray circle
                 c.setFillColor(HexColor("#cccccc"))
@@ -290,6 +295,34 @@ class CVGenerator:
             c.drawString(name_x, y_pos, line)
             y_pos -= 11
     
+    def _draw_contact_icon(self, c: canvas.Canvas, x: float, y: float, icon_type: str):
+        """Draw a simple icon for contact info (phone, email, location)."""
+        # Draw cyan circle background
+        c.setFillColor(self.config["accent_color"])
+        c.circle(x, y + 3, 8, fill=1, stroke=0)
+        
+        # Draw icon symbol in dark color
+        c.setFillColor(self.config["sidebar_bg"])
+        c.setStrokeColor(self.config["sidebar_bg"])
+        c.setLineWidth(1)
+        
+        if icon_type == "phone":
+            # Simple phone icon (rectangle with speaker)
+            c.rect(x - 3, y - 1, 6, 8, fill=1, stroke=0)
+            c.setFillColor(self.config["accent_color"])
+            c.rect(x - 2, y + 5, 4, 1, fill=1, stroke=0)
+        elif icon_type == "email":
+            # Simple envelope icon
+            c.rect(x - 5, y - 1, 10, 7, fill=0, stroke=1)
+            c.line(x - 5, y + 6, x, y + 2)
+            c.line(x + 5, y + 6, x, y + 2)
+        elif icon_type == "location":
+            # Simple location pin
+            c.circle(x, y + 4, 3, fill=0, stroke=1)
+            c.line(x, y + 1, x - 3, y - 2)
+            c.line(x, y + 1, x + 3, y - 2)
+            c.line(x - 3, y - 2, x + 3, y - 2)
+    
     def _draw_sidebar(self, c: canvas.Canvas):
         """
         Draw the dark sidebar with contact, skills, hobbies, and languages.
@@ -316,12 +349,7 @@ class CVGenerator:
         
         # Phone
         if contact.get("phone"):
-            # Draw cyan circle icon
-            c.setFillColor(self.config["accent_color"])
-            c.circle(sidebar_x + 8, y_pos + 3, 8, fill=1, stroke=0)
-            c.setFillColor(self.config["sidebar_bg"])
-            c.setFont("Helvetica-Bold", 8)
-            c.drawCentredString(sidebar_x + 8, y_pos, "📞")
+            self._draw_contact_icon(c, sidebar_x + 8, y_pos, "phone")
             c.setFillColor(white)
             c.setFont("Helvetica", 8)
             c.drawString(sidebar_x + 22, y_pos, contact["phone"])
@@ -329,8 +357,7 @@ class CVGenerator:
         
         # Email
         if contact.get("email"):
-            c.setFillColor(self.config["accent_color"])
-            c.circle(sidebar_x + 8, y_pos + 3, 8, fill=1, stroke=0)
+            self._draw_contact_icon(c, sidebar_x + 8, y_pos, "email")
             c.setFillColor(white)
             c.setFont("Helvetica", 8)
             c.drawString(sidebar_x + 22, y_pos, contact["email"])
@@ -338,8 +365,7 @@ class CVGenerator:
         
         # Location
         if contact.get("location"):
-            c.setFillColor(self.config["accent_color"])
-            c.circle(sidebar_x + 8, y_pos + 3, 8, fill=1, stroke=0)
+            self._draw_contact_icon(c, sidebar_x + 8, y_pos, "location")
             c.setFillColor(white)
             c.setFont("Helvetica", 8)
             c.drawString(sidebar_x + 22, y_pos, contact["location"])

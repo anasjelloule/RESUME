@@ -45,7 +45,7 @@ USER_DATA = {
     # PERSONAL INFO
     # -------------------------------------------------------------------------
     "name": "Anas Jelloul",
-    "title": "Tech Lead Full Stack | Node.js & Angular",
+    "title": "Tech Lead Full Stack - Node.js & Angular",
     
     # -------------------------------------------------------------------------
     # PROFESSIONAL SUMMARY
@@ -64,7 +64,7 @@ USER_DATA = {
     "contact": {
         "phone": "+212 698 938 255",
         "email": "anasjelloul@gmail.com",
-        "location": "Casablanca, Maroc",
+        "location": "Tit Melil, Casablanca",
         "linkedin": "linkedin.com/in/anas-jelloul",
         "github": "github.com/anas-jelloul",
     },
@@ -287,7 +287,7 @@ class ATSResumeGenerator:
             fontSize=sizes["name"],
             textColor=self.config["primary_color"],
             alignment=TA_CENTER,
-            spaceAfter=2
+            spaceAfter=14 # More space after name
         )
         
         # Professional title
@@ -298,7 +298,8 @@ class ATSResumeGenerator:
             fontSize=sizes["title"],
             textColor=self.config["secondary_color"],
             alignment=TA_CENTER,
-            spaceAfter=4
+            spaceBefore=4,  # Space before title
+            spaceAfter=6    # Space after title
         )
         
         # Contact info - single line, centered
@@ -309,6 +310,7 @@ class ATSResumeGenerator:
             fontSize=sizes["small"],
             textColor=self.config["secondary_color"],
             alignment=TA_CENTER,
+            spaceBefore=4,
             spaceAfter=10
         )
         
