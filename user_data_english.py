@@ -28,10 +28,10 @@ USER_DATA_EN = {
     # -------------------------------------------------------------------------
     "contact": {
         "phone": "+212 698 938 255",
-        "email": "anasjelloul@gmail.com",
+        "email": "anasjelloule@gmail.com",
         "location": "Tit Melil, Casablanca, Morocco",
-        "linkedin": "linkedin.com/in/anas-jelloul",
-        "github": "github.com/anas-jelloul",
+        "linkedin": "linkedin.com/in/anas-jelloul-758747137/",
+        "github": "github.com/anasjelloule",
     },
     
     # -------------------------------------------------------------------------

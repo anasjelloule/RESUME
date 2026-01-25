@@ -49,7 +49,7 @@ USER_DATA = {
     # -------------------------------------------------------------------------
     "contact": {
         "phone": "+212 698 938 255",
-        "email": "anasjelloul@gmail.com",
+        "email": "anasjelloule@gmail.com",
         "location": "Tit Melil, Casablanca"
     },
     

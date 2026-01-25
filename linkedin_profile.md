@@ -39,7 +39,7 @@ Je développe et fais évoluer MyTeam 360, une plateforme collaborative de gesti
 
 🎯 Ouvert aux opportunités en tant que Tech Lead, Architecte Fullstack ou Engineering Manager.
 
-📩 Contactez-moi : anasjelloul@gmail.com
+📩 Contactez-moi : anasjelloule@gmail.com
 ```
 
 ---
@@ -68,7 +68,7 @@ I designed and built MyTeam 360 from the ground up — a collaborative sports ma
 
 🎯 Open to opportunities as Tech Lead, Full Stack Architect, or Engineering Manager.
 
-📩 Reach me: anasjelloul@gmail.com
+📩 Reach me: anasjelloule@gmail.com
 ```
 
 ---

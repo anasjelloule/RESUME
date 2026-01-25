@@ -7,7 +7,7 @@
 **Anas Jelloul**  
 Tit Melil, Casablanca  
 +212 698 938 255  
-anasjelloul@gmail.com  
+anasjelloule@gmail.com  
 
 [Ville], le [Date]
 
@@ -50,7 +50,7 @@ Dans l'attente de votre retour, je vous prie d'agréer, Madame, Monsieur, l'expr
 **Anas Jelloul**  
 Tit Melil, Casablanca, Morocco  
 +212 698 938 255  
-anasjelloul@gmail.com  
+anasjelloule@gmail.com  
 
 [Date]
 
