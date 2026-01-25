@@ -1,0 +1,110 @@
+{
+  "name": "John Doe",
+  "title": "Senior Software Engineer",
+  "contact": {
+    "email": "john.doe@email.com",
+    "phone": "+1 (555) 123-4567",
+    "linkedin": "linkedin.com/in/johndoe",
+    "github": "github.com/johndoe",
+    "location": "San Francisco, CA",
+    "portfolio": ""
+  },
+  "summary": "Results-driven Senior Software Engineer with 7+ years of experience designing and implementing scalable distributed systems and cloud-native applications. Proven track record in leading cross-functional teams, optimizing system performance by 40%, and delivering mission-critical solutions serving 10M+ users. Expert in Python, Go, and cloud infrastructure (AWS, GCP). Passionate about clean code, DevOps practices, and mentoring junior developers.",
+  "skills": {
+    "Languages": ["Python", "Go", "JavaScript/TypeScript", "SQL", "Bash", "Java"],
+    "Frameworks & Libraries": ["Django", "FastAPI", "React", "Node.js", "Flask", "Celery"],
+    "Cloud & Infrastructure": ["AWS (EC2, S3, Lambda, RDS)", "GCP", "Docker", "Kubernetes", "Terraform", "Ansible"],
+    "Databases": ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "DynamoDB"],
+    "Tools & Practices": ["Git", "CI/CD (Jenkins, GitHub Actions)", "Agile/Scrum", "Microservices", "REST APIs", "GraphQL"]
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "TechCorp Inc.",
+      "location": "San Francisco, CA",
+      "dates": "Jan 2021 - Present",
+      "bullets": [
+        "Architected and deployed a microservices-based payment processing system handling 50,000+ daily transactions, reducing latency by 40% and improving system reliability to 99.99% uptime.",
+        "Spearheaded the implementation of CI/CD pipelines using GitHub Actions and Kubernetes, decreasing deployment time from 2 hours to 15 minutes and enabling 10x more frequent releases.",
+        "Led a team of 5 engineers in developing a real-time analytics dashboard using Python, React, and Elasticsearch, providing actionable insights to 500+ enterprise clients.",
+        "Mentored 8 junior developers through code reviews and pair programming, resulting in a 30% improvement in team code quality metrics."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "StartupXYZ",
+      "location": "Austin, TX",
+      "dates": "Jun 2018 - Dec 2020",
+      "bullets": [
+        "Designed and implemented RESTful APIs serving 2M+ monthly active users, utilizing Django REST Framework and PostgreSQL with Redis caching.",
+        "Optimized database queries and implemented connection pooling, reducing API response times by 60% and database load by 45%.",
+        "Developed automated testing infrastructure increasing code coverage from 45% to 92%, significantly reducing production bugs.",
+        "Collaborated with DevOps to containerize applications using Docker, enabling seamless deployment across development, staging, and production."
+      ]
+    },
+    {
+      "title": "Junior Software Developer",
+      "company": "WebSolutions LLC",
+      "location": "Remote",
+      "dates": "Aug 2016 - May 2018",
+      "bullets": [
+        "Built and maintained 15+ client-facing web applications using Python and JavaScript, consistently delivering projects on time and under budget.",
+        "Implemented responsive UI components with React, improving mobile user engagement by 25% across client portfolios.",
+        "Created automated data migration scripts processing 500K+ records, ensuring zero data loss during system upgrades."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CloudMonitor - Infrastructure Monitoring Platform",
+      "tech_stack": "Python, Go, Prometheus, Grafana, Kubernetes",
+      "description": "Developed an open-source infrastructure monitoring solution capable of tracking 1000+ metrics across distributed systems. Implemented anomaly detection using machine learning, reducing incident response time by 50%. Garnered 2.5K+ GitHub stars.",
+      "link": "github.com/johndoe/cloudmonitor"
+    },
+    {
+      "name": "DataPipeline - ETL Automation Framework",
+      "tech_stack": "Python, Apache Airflow, AWS S3, Redshift",
+      "description": "Created a modular ETL framework processing 10TB+ daily data loads with 99.9% reliability. Reduced manual data engineering tasks by 70% through intelligent scheduling and error handling.",
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Stanford University",
+      "location": "Stanford, CA",
+      "dates": "2014 - 2016",
+      "details": "Focus: Distributed Systems & Machine Learning | GPA: 3.8/4.0"
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "dates": "2010 - 2014",
+      "details": "Magna Cum Laude | Dean's List"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect - Professional",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    },
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation",
+      "date": "2022"
+    },
+    {
+      "name": "Google Cloud Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "date": "2021"
+    }
+  ],
+  "metadata": {
+    "author": "John Doe",
+    "title": "John Doe - Senior Software Engineer Resume",
+    "subject": "Professional Resume",
+    "keywords": "Software Engineer, Python, Go, AWS, Kubernetes, Distributed Systems, Microservices, DevOps, Cloud Architecture, Full Stack Developer"
+  }
+}
