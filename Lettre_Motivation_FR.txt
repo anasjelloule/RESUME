@@ -1,0 +1,36 @@
+Anas Jelloul
+Tit Melil, Casablanca
++212 698 938 255
+anasjelloul@gmail.com
+
+[Ville], le [Date]
+
+À l'attention du Responsable du Recrutement
+[Nom de l'Entreprise]
+[Adresse]
+
+---
+
+Objet : Candidature au poste de [Titre du Poste]
+
+Madame, Monsieur,
+
+Passionné par l'architecture logicielle et le développement Full Stack, je me permets de vous adresser ma candidature pour le poste de [Titre du Poste] au sein de votre entreprise.
+
+En tant que Tech Lead chez MyTeam 360, j'ai eu l'opportunité de concevoir et développer intégralement une plateforme collaborative de gestion sportive adoptée par la FRMF (Fédération Royale Marocaine de Football), les clubs professionnels et les académies de football. Ce projet m'a permis de :
+
+• Architecturer une solution Microservices (Node.js/Express + React/Angular) capable de gérer des milliers d'utilisateurs
+• Piloter une équipe de 3 développeurs avec des pratiques de Code Review et Mentoring
+• Intégrer des modules complexes : suivi de performance sportive (GPS, HOOPER, RPE), analyse vidéo et Data Science
+• Administrer l'infrastructure sur DigitalOcean avec automatisation Linux et tâches planifiées
+
+Actuellement en Cycle Ingénieur d'État en Génie Logiciel à High Tech School, je renforce continuellement mes compétences en architecture système et management technique.
+
+Ce qui m'attire chez [Nom de l'Entreprise], c'est [mentionner quelque chose de spécifique : leur produit, leur culture tech, un projet récent, etc.]. Je suis convaincu que mon expérience en conception de produits à grande échelle et mon approche DevOps-oriented seraient des atouts pour votre équipe.
+
+Je serais ravi d'échanger avec vous sur la façon dont je pourrais contribuer à vos projets. Je reste disponible pour un entretien à votre convenance.
+
+Dans l'attente de votre retour, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+
+Anas Jelloul

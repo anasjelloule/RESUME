@@ -38,7 +38,7 @@ USER_DATA = {
     # PROFESSIONAL SUMMARY (Executive Pitch)
     # -------------------------------------------------------------------------
     "summary": (
-        "Tech Lead et Futur Ingénieur d'État. Architecte et développeur principal d'une plateforme collaborative "
+        "Tech Lead et Futur Ingénieur d'État. Développeur principal et architecte clé d'une plateforme collaborative "
         "de gestion sportive 360° (myteam.ma) adoptée par la FRMF et les clubs professionnels marocains. "
         "Expert en architecture Microservices (Node.js, Angular, React) et intégration de systèmes "
         "complexes (performance, data, vidéo). Leadership d'équipe et passion pour l'innovation technologique."
@@ -58,7 +58,7 @@ USER_DATA = {
     # -------------------------------------------------------------------------
     "experiences": [
         {"year": "2023-", "title": "Tech Lead & Développeur Principal", "company": "MyTeam 360 (myteam.ma)", "details": (
-            "• Produit : Conception et développement complet d'une plateforme collaborative de gestion sportive adoptée par la FRMF, les clubs professionnels et les académies de football.\n"
+            "• Produit : Développement et mise à l'échelle d'une plateforme collaborative de gestion sportive adoptée par la FRMF, les clubs professionnels et les académies de football.\n"
             "• Modules : Gestion administrative, suivi de performance (HOOPER, RPE, GPS), dossiers médicaux, analyse vidéo et intégration Data Science.\n"
             "• Architecture : Microservices (Node.js/Express + APIs Python), Microfrontend (Angular + React), bases hybrides MySQL & MongoDB.\n"
             "• Leadership : Responsable d'une équipe de 3 développeurs. Code Reviews, Mentoring, arbitrage technique.\n"

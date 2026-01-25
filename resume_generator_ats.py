@@ -51,7 +51,7 @@ USER_DATA = {
     # PROFESSIONAL SUMMARY
     # -------------------------------------------------------------------------
     "summary": (
-        "Tech Lead et futur Ingénieur d'État, architecte et développeur principal d'une plateforme collaborative "
+        "Tech Lead et futur Ingénieur d'État, développeur principal et architecte clé d'une plateforme collaborative "
         "de gestion sportive 360° (myteam.ma) adoptée par la FRMF (Fédération Royale Marocaine de Football) "
         "et les clubs professionnels. 5+ années d'expérience en développement Full Stack et Microservices. "
         "Expert Node.js, Angular, React avec intégration de systèmes complexes (performance, data, vidéo). "
@@ -110,7 +110,7 @@ USER_DATA = {
             "location": "Casablanca, Maroc",
             "dates": "2023 - Présent",
             "bullets": [
-                "Conception et développement complet d'une plateforme collaborative de gestion sportive adoptée par la FRMF, les clubs professionnels et les académies de football.",
+                "Développement et mise à l'échelle d'une plateforme collaborative de gestion sportive adoptée par la FRMF, les clubs professionnels et les académies de football.",
                 "Développement de modules : gestion administrative, suivi de performance (HOOPER, RPE, GPS), dossiers médicaux, analyse vidéo, intégration Data Science.",
                 "Architecture : Microservices (Node.js/Express + APIs Python), Microfrontend (Angular + React), bases hybrides MySQL & MongoDB.",
                 "Leadership : Responsable d'une équipe de 3 développeurs. Code Reviews, Mentoring, arbitrage technique.",

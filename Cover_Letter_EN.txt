@@ -1,0 +1,38 @@
+Anas Jelloul
+Tit Melil, Casablanca, Morocco
++212 698 938 255
+anasjelloul@gmail.com
+
+[Date]
+
+Hiring Manager
+[Company Name]
+[Address]
+
+---
+
+Re: Application for [Job Title] Position
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the [Job Title] position at [Company Name]. As a Tech Lead with a proven track record of building production-grade platforms from scratch, I am excited about the opportunity to contribute to your team.
+
+At MyTeam 360, I designed and developed a complete collaborative sports management platform that has been adopted by the FRMF (Royal Moroccan Football Federation), professional clubs, and football academies. This experience allowed me to:
+
+• Architect a Microservices solution (Node.js/Express + Angular/React) handling thousands of users
+• Lead a team of 3 developers with Code Review practices and technical mentorship
+• Build complex modules including sports performance tracking (GPS, HOOPER, RPE), video analysis, and Data Science integration
+• Manage infrastructure on DigitalOcean with Linux automation and scheduled tasks (Cron, BullMQ)
+
+I am currently pursuing my State Engineering Degree in Software Engineering at High Tech School, continuously strengthening my expertise in system architecture and technical leadership.
+
+What excites me about [Company Name] is [mention something specific about their product, tech stack, culture, or recent projects]. I believe my experience in building scalable products, combined with my DevOps mindset, would be valuable assets for your team.
+
+I would welcome the opportunity to discuss how my background and skills could contribute to your projects. I am available for an interview at your convenience.
+
+Thank you for considering my application. I look forward to hearing from you.
+
+Best regards,
+
+
+Anas Jelloul
